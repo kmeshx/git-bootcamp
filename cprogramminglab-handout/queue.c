@@ -28,6 +28,7 @@ queue_t *q_new()
     /* What if malloc returned NULL? */
     q->head = NULL;
     return q;
+    //yolo
 }
 
 /* Free all storage used by queue */
